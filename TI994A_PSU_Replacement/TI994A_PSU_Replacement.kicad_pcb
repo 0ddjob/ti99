@@ -1126,7 +1126,7 @@
 			)
 		)
 		(property "Value" "Power LED"
-			(at -3 4 180)
+			(at 2 20 180)
 			(layer "F.SilkS")
 			(uuid "f9ba5883-ce82-4045-b897-d4db226e9eb1")
 			(effects
@@ -1505,6 +1505,7 @@
 			(at -5.7529 -3.5669 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "70eeee65-1e92-4547-bac9-7d865fc97fdd")
 			(effects
 				(font
@@ -3366,6 +3367,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 127.262273 82.332311 0)
+		(layer "F.SilkS")
+		(uuid "2500b2a0-b518-4bba-9c79-b0fc2b78dd6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+12V\n\nGND"
 		(at 91 129 90)
 		(layer "F.SilkS")
@@ -3376,6 +3389,18 @@
 				(thickness 0.15)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "+"
+		(at 105 132 0)
+		(layer "F.SilkS")
+		(uuid "419a20df-13ae-4708-8d4f-30f4f0fab366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "DFR0831 DC-DC \nBuck Converter"
@@ -3391,9 +3416,21 @@
 		)
 	)
 	(gr_text "All capacitors 2.00mm pitch"
-		(at 107 117 90)
+		(at 133 141 0)
 		(layer "F.SilkS")
 		(uuid "5e29adb3-a23d-4109-b7a3-4fb69e3ad163")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "(optional)"
+		(at 126 55 0)
+		(layer "F.SilkS")
+		(uuid "610df563-0f7a-49bd-a964-5afed61b5947")
 		(effects
 			(font
 				(size 1 1)
@@ -3415,6 +3452,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "+"
+		(at 98 132 0)
+		(layer "F.SilkS")
+		(uuid "a2c42edb-f776-4eac-adc7-c1b237a1efba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "ON  OFF"
 		(at 83.09 62.39 0)
 		(layer "F.SilkS")
@@ -3428,8 +3477,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+"
+		(at 112 132 0)
+		(layer "F.SilkS")
+		(uuid "c2330664-9dbc-40e1-9318-da0ebb3186e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Power Switch\n\nG-Switch SS-22G88-090\nor similar"
-		(at 96.32 62.17 0)
+		(at 96 61 0)
 		(layer "F.SilkS")
 		(uuid "cee06bc6-26ca-4399-8f75-e7415098729f")
 		(effects
@@ -3488,7 +3549,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text_box "TI 99/4A PSU Replacement Board\nThis version by Brett Hallen (Nov 2025)\nwww.youtube.com/@Brfff\n\nBased on modified version by dabone (2024)\nhttps://github.com/dabonetn\n\nOriginal design by Johnny Blanchard\nhttps://re-enthused.com"
+	(gr_text_box "TI 99/4A PSU Replacement Board (Rev. A)\nThis version by Brett Hallen (Nov 2025)\nwww.youtube.com/@Brfff\n\nBased on modified version by dabone (2024)\nhttps://github.com/dabonetn\n\nOriginal design by Johnny Blanchard\nhttps://re-enthused.com"
 		(start 153.112363 79.169318)
 		(end 178 136.830681)
 		(margins 1.0025 1.0025 1.0025 1.0025)
