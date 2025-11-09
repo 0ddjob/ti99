@@ -35,4 +35,4 @@ This design is vertical and plugs into the DE9 socket to provide a 3.5mm EAR and
 # [Cassette Adaptor #2](/CassetteAdaptor2)
 This design is horizontal and plugs into the DE9 socket to provide a 3.5mm EAR and 3.5mm MIC socket for CS1.<br>
 
-![Cassette Adaptor 2 3D](/CassetteAdaptor/CassetteAdaptor2_3D.png)
+![Cassette Adaptor 2 3D](/CassetteAdaptor2/CassetteAdaptor2_3D.png)
